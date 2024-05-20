@@ -3375,6 +3375,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 @media only screen and (max-width: 600px) {
     .box-cont {
         flex-direction: column;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .box-cont .ttr-post-info {
