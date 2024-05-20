@@ -2014,6 +2014,9 @@ button.back-to-top {
 	-o-transition:all 0.5s;
 	-webkit-transition:all 0.5s;
 }
+.box-wraps {
+    width: 100%;
+}
 .cours-bx:hover .action-box .btn{
 	left: 0;
 }
