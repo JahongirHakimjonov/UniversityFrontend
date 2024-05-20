@@ -3386,3 +3386,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
         width: 100%;
     }
 }
+
+.ttm-learn-press-profile-item {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.ttm-learn-press-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+
+.ttm-learn-press-right {
+    order: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .ttm-learn-press-profile-item {
+        flex-direction: column-reverse;
+    }
+}
