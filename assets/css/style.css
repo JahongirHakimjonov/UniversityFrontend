@@ -3370,3 +3370,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 .box-cont .ttr-post-info {
     width: 100%;
 }
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    .box-cont {
+        flex-direction: column;
+    }
+
+    .box-cont .ttr-post-info {
+        width: 100%;
+    }
+}
