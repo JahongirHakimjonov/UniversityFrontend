@@ -3451,3 +3451,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 .controls-container span {
     color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+    .controls-container {
+        padding: 5px;
+    }
+
+    .controls-container button {
+        font-size: 14px;
+    }
+}
