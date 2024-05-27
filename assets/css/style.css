@@ -409,8 +409,8 @@
 .menu-links .nav > li > a {
     border-radius: 0px;
     color: #000;
-    font-size: 15px;
-    padding: 30px 12px;
+    font-size: 14px;
+    padding: 30px 8px;
     cursor: pointer;
 	font-weight: 400;
 	display: inline-block;
@@ -431,17 +431,17 @@
 .menu-links .nav > li:hover > a {
     color: #EFBB20;
 }
-.menu-links .nav > li:hover > a:after {
-    content: "";
-    width: 10px;
-    height: 10px;
-    background: #fff;
-    top: 85%;
-    position: absolute;
-    left: 30px;
-    transform: rotate(45deg);
-    z-index: 11;
-}
+/*.menu-links .nav > li:hover > a:after {*/
+/*    content: "";*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*    background: #fff;*/
+/*    top: 85%;*/
+/*    position: absolute;*/
+/*    left: 30px;*/
+/*    transform: rotate(45deg);*/
+/*    z-index: 11;*/
+/*}*/
 .menu-links .nav > li:hover > .sub-menu,
 .menu-links .nav > li:hover > .mega-menu {
     opacity: 1;
@@ -823,6 +823,9 @@
     .nav.navbar-nav li a i.fa-chevron-down:before {
 		content:"\f078";
 	}
+    .nav.navbar-nav li a {
+        text-align: center !important;
+    }
 	.side-nav .nav.navbar-nav li.open a i.fa-chevron-down:before,
 	.nav.navbar-nav li.open a i.fa-chevron-down:before {
 		content:"\f054";
@@ -3460,4 +3463,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
     .controls-container button {
         font-size: 14px;
     }
+}
+
+
+#menuRow {
+    margin-bottom: 10px;
 }
