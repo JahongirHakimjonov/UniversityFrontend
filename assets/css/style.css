@@ -3469,3 +3469,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 #menuRow {
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .login_register {
+        max-width: 50%;
+    }
+}
